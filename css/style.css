@@ -1,0 +1,49 @@
+body {
+  background-image:url('http://i.imgur.com/l32gHMA.png');
+    background-repeat:repeat;
+}
+.box {
+  margin: auto;
+  width: 400px;
+  height: 375px;
+  text-align:center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.textbx{
+  width:300px;
+  margin-bottom:10px;
+}
+div.green{
+  color: green;
+}
+div.red{
+  color:red;
+}
+h1{
+  font-family: "roboto",sans-serif;
+  font-weight: 400;
+}
+p{
+  font-family: serif;
+}
+button {
+  border: 2px solid black;
+  padding: 12px 28px;
+  text-decoration: none;
+}
+button.red {
+  border: 2px solid red;
+}
+button.green {
+  border: 2px solid green;
+}
+.warning{
+  color: red;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 13px;
+}

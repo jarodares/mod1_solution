@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="LunchCheck">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <title>Module_1 Solution</title>
+  </head>
+  <body>
+      <div class="box" ng-controller="LunchController">
+        <h1>Check if you're eating too much.</h1>
+        <p>Input what you'll eat separated with commas. eg: Rice, Meat Cookie, Soda,...<span class="warning">Empty spaces won't count as food</span></p>
+        <input class="textbx" type="text" ng-model="name">
+        <br>
+        <button class="{{bclass}}" ng-click="checkFood()" title="Empty spaces have no calories.">Check if too Much!</button>
+        <br>
+        <div><h1><span class={{vclass}}>{{message}}</span></h1></div>
+      </div>
+
+
+  </body>
+</html>
