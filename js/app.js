@@ -22,7 +22,7 @@
         // within the array.
         var length = 0;
         for (var i = 0; i < arrayOfStrings.length; i++) {
-          if (arrayOfStrings[i] != "") {
+          if ((arrayOfStrings[i] != "") || (arrayOfStrings[i] != " ")) {
             // If element isn't empty increase length size by one.
               length += 1;
             }
